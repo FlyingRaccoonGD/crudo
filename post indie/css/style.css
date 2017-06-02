@@ -1,0 +1,36 @@
+body {
+	background-image: url(../img/img-noise-361x370.png);
+	font-family: 'Muli';
+	font-size: 26px;
+	font-weight: 300;
+}
+
+header {
+	font-family: 'Barrio';
+	font-size: 32px;
+	color: #F4E0A3;
+}
+
+h1 {
+	font-family: 'Barrio';
+	font-size: 65px;
+	text-shadow: -1px 0 #F4E0A3, 0 1px #F4E0A3, 1px 0 #F4E0A3, 0 -1px #F4E0A3;
+}
+
+.contenido {
+	text-align: center;
+	width: 70%;
+	margin: auto;
+	color: #F4E0A3;
+}
+
+.grit {
+  -webkit-mask-image: url("../img/grit.png");
+  mask-image: url("../img/grit.png");
+}
+
+.titulo {	
+	margin: auto;
+	margin-bottom: 80px;
+	text-align: center;
+}

@@ -1,0 +1,19 @@
+body{
+	background-color: #a60a24;
+	color: white;
+	font-family: helvetica;
+}
+
+header{
+	font: italic bold 50px Georgia, Serif;
+	text-shadow: -4px 3px 0 #a60a24, -14px 7px 0 #0a0e27;
+}
+
+section{
+	text-align: center;
+}
+
+h1{
+	font: italic bold 90px Georgia, Serif;
+	text-shadow: -4px 3px 0 #a60a24, -14px 7px 0 #0a0e27;
+}

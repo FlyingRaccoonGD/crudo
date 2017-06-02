@@ -1,0 +1,90 @@
+/*
+color letras FF6052*/
+/*otro color letras 757575*/
+
+*{
+	margin: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #757575;
+}
+
+
+h1{
+	font-family: 'Fira Sans';
+	font-weight: 200;
+	font-size: 60px;
+	display: flex;
+	margin-top: 179px;
+	margin-left: 28px;
+	color: #FF6052;
+	text-align: center;
+}
+
+picture {
+	display: flex;
+	justify-content: center;
+}
+
+.subt {
+	color: #FF6052;
+	font-family: 'Fira Sans';
+}
+.top {
+	background-image: url(img/cubes.png);
+	margin: 0;
+	height: 270px;
+	display: flex;
+	overflow: hidden;
+}
+
+
+.t{
+	font-family: 'Fira Sans';
+	font-size: 40px;
+	display: block;
+}
+
+.t1 {
+	font-weight: 100;
+
+}
+.t2 {
+	font-weight: 200;
+
+}
+.t3 {
+	font-weight: 300;
+}
+.t4 {
+	font-weight: 400;
+}
+.t5 {
+	font-weight: 500;
+}
+.t6{
+	font-weight: 600;	
+}
+
+
+.bot {
+	border-top: solid #FF6052 3px;
+	width: 100%;
+}
+
+
+
+.bot div {
+	width: 60%;
+	margin: 40px auto;
+	font-family: 'Fira Sans';
+	font-size: 20px;
+
+}
+
+.container {
+	overflow: hidden;
+}

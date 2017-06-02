@@ -1,0 +1,42 @@
+body {
+	background-image: url(img/shley-tree-2.png);
+	background-color: #422811;
+	color: #FFF6CD;
+	font-family: 'Bitter';
+}
+
+header div {
+	background-color: #FFF6CD;
+	border-radius: 5%;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	line-height: 50px
+}
+
+header {
+	color: black;
+	display: flex;
+	justify-content: center;
+	font-family: 'Dancing Script';
+	font-size: 20px;
+	padding-top: 20px;
+}
+
+.titulo {
+	font-family: 'Bitter';
+	font-size: 60px;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+.contenido{
+	width: 76%;
+	margin: auto;
+	font-size: 16px;
+	text-align: center;
+}
+
