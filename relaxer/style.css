@@ -47,23 +47,24 @@ header {
 .logo {
   margin-top: 20px;
   margin-left: 10px;
+  animation: appear 3s;
 }
 
 
 .title h1 {
   font-weight: 300;
-   animation: appear 6s;
+  animation: appear 6s;
   
 }
 
 .title h2 {
   font-weight: 300;
-   animation: appear 3s;
+  animation: appear 3s;
 
 }
 
 .title span{
-   animation: appear 11s;
+  animation: appear 11s;
 }
 
 .content {
@@ -105,9 +106,9 @@ footer {
 
 @keyframes appear {
   0% {
-    color: black;
+    opacity: 0;
   }
   100% {
-    color: white;
+    opacity: 1;
   }
 }
