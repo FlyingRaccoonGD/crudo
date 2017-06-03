@@ -1,0 +1,44 @@
+
+body {
+	margin: 0;
+	font-family: 'Raleway';
+}
+
+header {
+	height: 80px;
+
+}
+
+.dp {
+	width: 517px;
+	font-size: 23px;
+	color: white;
+	margin: 100px 80px;
+	padding: 40px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.dest {
+	text-decoration: none;
+}
+
+.dp h1 {
+	font-size: 31px;
+}
+
+.logo {
+	margin-top: 12px;
+	margin-left: 10px;
+}
+
+.destacado {
+	background-color: black;
+	background-image: url(relaxer/img/altjbg.jpg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	height: 600px;
+	display: flex;
+	justify-content: flex-end;
+}
