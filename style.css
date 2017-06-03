@@ -24,7 +24,7 @@ header nav ul {
 
 header nav ul li {
 	font-size: 22px;
-	line-height: 40px;
+	line-height: 50px;
 	padding-right: 15px;
 }
 
@@ -50,7 +50,11 @@ footer {
 	text-align: center;
 	display: flex;
 	flex-direction: column;
-	animation: appear 4s;
+	animation: appear 3s;
+}
+
+.dp p {
+	animation: appear 7s;
 }
 
 .dest {
