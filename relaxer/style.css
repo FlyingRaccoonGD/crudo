@@ -12,6 +12,35 @@ header {
 }
 
 
+.hdr {
+  height: 80px;
+  color: black;
+  position: relative;
+}
+
+
+.hdr nav {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+}
+
+.hdr nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.hdr nav ul li {
+  font-size: 22px;
+  line-height: 40px;
+  padding-right: 15px;
+}
+
+.hdr nav a {
+  text-decoration: none;
+  color: black;
+}
+
 
 .fullscreen-bg {
   background-color: black;
@@ -86,6 +115,7 @@ header {
   margin: auto;
   font-size: 20px;
   border-top: 2px solid grey;
+  margin-bottom: 60px;
 }
 
 .autor article {
@@ -103,7 +133,37 @@ header {
 
 footer {
   height: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
 }
+
+/*footer social*/
+.social1 {
+  height: 100px;
+  margin-right: 50px;
+  margin-left: 50px; 
+  transition: .6s;
+}
+.social2 {
+  height: 120px;
+  transition: .6s;
+}
+
+.social1:hover {
+  height: 72px;
+  margin-right: 64px;
+  margin-left: 64px;
+}
+.social2:hover {
+  height: 92px;
+}
+
+.hdr nav ul li:hover {
+  text-decoration: underline;
+}
+
 
 
 @keyframes appear {
