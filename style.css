@@ -41,6 +41,11 @@ footer {
 	align-items: center;
 }
 
+.contenido a {
+	text-decoration: none;
+	color: black;
+}
+
 .dp {
 	width: 517px;
 	font-size: 23px;
@@ -166,20 +171,125 @@ footer {
 
 #ar1 {
 	margin-left: 0px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
 }
 #ar2 {
 	margin-left: 400px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
 }
 #ar3 {
 	margin-left: 800px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
 }
 #ar4 {
 	margin-left: 1200px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
 }
 #ar5 {
-	margin-left: 1500px;
+	margin-left: 1600px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
 }
 
+
+#ar01 {
+	margin-left: 2000px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+#ar02 {
+	margin-left:  2400px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+#ar03 {
+	margin-left: 2800px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+#ar04 {
+	margin-left: 3200px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+#ar05 {
+	margin-left: 3600px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+
+#ar11 {
+	margin-left: 4000px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+#ar12 {
+	margin-left:  4400px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+#ar13 {
+	margin-left: 4800px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+#ar14 {
+	margin-left: 5200px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+#ar15 {
+	margin-left: 5600px;
+	animation: desp 50s  linear infinite;
+	transform: translate(-4000px);
+}
+
+
+
+
+
+
+
+.aa {
+	-webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
+	clip-path: polygon(0 0, 50% 100%, 100% 0);
+	background-color: black;
+	height: 60px;
+	width: 60px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.as {
+	-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+	background-color: black;
+	height: 60px;
+	width: 60px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+
+}
+
+.artc: hover{
+	transform: scale(.8,.8);
+}
+
+
+
+
+
+
+
+button:focus {
+	outline: 0;
+}
 
 
 
@@ -194,4 +304,10 @@ header nav ul li:hover {
   100% {
     opacity: 1;
   }
+}
+
+@keyframes desp {
+	100% {
+		transform: initial;
+	}
 }
