@@ -125,6 +125,61 @@ footer {
 	height: 92px;
 }
 
+.artc {
+	background-color: black;
+	height: 287px;
+	width: 90%;
+	font-size: 15px;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 5px;
+	display: flex;
+	overflow: hidden;
+	-webkit-clip-path: polygon(15% 0, 100% 0%, 85% 100%, 0% 100%);
+	clip-path: polygon(6% 0, 100% 0%, 94% 100%, 0% 100%);
+	position: relative;
+}
+
+
+.artc article {
+	color: white;
+	height: 240px;
+	width: 280px;
+	border: 2px solid white;
+	border-radius: 10%;
+	text-align: center;
+	vertical-align: middle;
+	margin: 2px 10px;
+	padding: 20px;
+	position: absolute;
+}
+
+.ra {
+	display: inline-block;
+	font-weight: 300;
+	font-size: 40px;
+	margin: 80px 0 10px 10px;
+}
+
+
+
+
+#ar1 {
+	margin-left: 0px;
+}
+#ar2 {
+	margin-left: 400px;
+}
+#ar3 {
+	margin-left: 800px;
+}
+#ar4 {
+	margin-left: 1200px;
+}
+#ar5 {
+	margin-left: 1500px;
+}
+
 
 
 
