@@ -92,7 +92,7 @@ footer {
 }
 
 .contenido {
-	height: 800px;
+	height: 1400px;
 	font-size: 40px;
 }
 
@@ -132,9 +132,9 @@ footer {
 
 .artc {
 	background-color: black;
-	height: 287px;
+	height: 227px;
 	width: 90%;
-	font-size: 15px;
+	font-size: 17px;
 	overflow: hidden;
 	margin: auto;
 	margin-top: 5px;
@@ -148,16 +148,22 @@ footer {
 
 .artc article {
 	color: white;
-	height: 240px;
+	height: 180px;
 	width: 280px;
 	border: 2px solid white;
-	border-radius: 10%;
+	border-radius: 5%;
 	text-align: center;
 	vertical-align: middle;
 	margin: 2px 10px;
 	padding: 20px;
 	position: absolute;
 }
+
+.artc a {
+	text-decoration: none;
+	color: white;
+}
+
 
 .ra {
 	display: inline-block;
@@ -171,116 +177,173 @@ footer {
 
 #ar1 {
 	margin-left: 0px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar2 {
 	margin-left: 400px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar3 {
 	margin-left: 800px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar4 {
 	margin-left: 1200px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar5 {
 	margin-left: 1600px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 
 
 #ar01 {
 	margin-left: 2000px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar02 {
 	margin-left:  2400px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar03 {
 	margin-left: 2800px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar04 {
 	margin-left: 3200px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar05 {
 	margin-left: 3600px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 
 #ar11 {
 	margin-left: 4000px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar12 {
 	margin-left:  4400px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar13 {
 	margin-left: 4800px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar14 {
 	margin-left: 5200px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 #ar15 {
 	margin-left: 5600px;
-	animation: desp 50s  linear infinite;
+	animation: desp 59s  linear infinite;
 	transform: translate(-4000px);
 }
 
 
 
 
-
+.wrapper {
+	position: relative;
+}
 
 
 .aa {
 	-webkit-clip-path: polygon(0 0, 50% 100%, 100% 0);
 	clip-path: polygon(0 0, 50% 100%, 100% 0);
 	background-color: black;
-	height: 60px;
-	width: 60px;
+	height: 5vw;
+	width: 5vw;
 	padding: 0;
 	margin: 0;
 	border: 0;
+	position: absolute;
+	top: 0px;
+	left: 15px;
+/*	transform: rotate(-5deg);*/
 }
 
 .as {
 	-webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 	clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 	background-color: black;
-	height: 60px;
-	width: 60px;
+	height: 5vw;
+	width: 5vw;
 	padding: 0;
 	margin: 0;
 	border: 0;
+	position: absolute;
+	bottom: 0px;
+	right: 15px;
+/*	transform: rotate(-5deg);*/
 
 }
 
-.artc: hover{
-	transform: scale(.8,.8);
+
+
+.bot {
+	display: flex;
+	height: 600px;
+	margin-top: 100px;
+	position: relative;
+	justify-content: space-between;
 }
 
+.posts{
+	width: 50vw;
+	margin-left: 20px;
+}
+
+
+.pla {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.pl {
+	margin: auto;
+}
+
+.pl h3{
+	font-weight: 300;
+	font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.artc:hover .ar01 {
+	-webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+} 
 
 
 
