@@ -113,6 +113,8 @@ a:hover{
 .vid-info .acronym { display: none; }
 }*/
 
+
+
 body {
   margin: 0;
   padding: 0;
@@ -124,35 +126,42 @@ header {
   margin: 0;
   padding: 0;
   height: calc(80vw * 9 / 16 + 5px);
-  background-color: black;
 }
 
 
 
 .fullscreen-bg {
-    width: 80vw;
-    margin: auto;
+    width: 100%;
     overflow: hidden;
     z-index: -100;
     background-color: black;
-    display: block;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    height: calc(80vw * 9 / 16 + 5px);
 
 
 }
 
 .fullscreen-bg__video {
     width: 80vw;
+
 }
 
 .title {
-  font-size: 35px;
-  z-index: 1;
+  font-size: 2.3vw;
+  z-index: 100;
   position: relative;
-  bottom: 65vh;
   text-align: center;
   color: white;
   font-family: 'Raleway';
+  padding-top: calc((80vw * 9 / 16 + 5px)/3.46) ;
   
+}
+
+.di {
+  height: 5px;
 }
 
 
