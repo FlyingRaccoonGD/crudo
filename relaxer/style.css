@@ -14,15 +14,16 @@ header {
 
 
 .fullscreen-bg {
-    width: 100%;
-    overflow: hidden;
-    z-index: -100;
-    background-color: black;
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    height: calc(80vw * 9 / 16 + 5px);
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  z-index: -100;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  height: calc(80vw * 9 / 16 + 5px);
 
 
 }
@@ -47,23 +48,24 @@ header {
 .logo {
   margin-top: 20px;
   margin-left: 10px;
+  animation: appear 3s;
 }
 
 
 .title h1 {
   font-weight: 300;
-   animation: appear 6s;
+  animation: appear 6s;
   
 }
 
 .title h2 {
   font-weight: 300;
-   animation: appear 3s;
+  animation: appear 3s;
 
 }
 
 .title span{
-   animation: appear 11s;
+  animation: appearr 4s infinite;
 }
 
 .content {
@@ -76,6 +78,7 @@ header {
   font-weight: 600;
   margin-bottom: 100px;
 }
+
 
 
 .autor {
@@ -105,9 +108,21 @@ footer {
 
 @keyframes appear {
   0% {
-    color: black;
+    opacity: 0;
   }
   100% {
-    color: white;
+    opacity: 1;
+  }
+}
+
+@keyframes appearr {
+  0% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
