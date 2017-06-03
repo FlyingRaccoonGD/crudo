@@ -68,7 +68,9 @@ footer {
 .destacado {
 	background-color: black;
 	background-image: url(relaxer/img/altjbg.jpg);
-	background-size: 50%;
+	background-size: 55%;
+	background-position: left bottom;
+
 	background-repeat: no-repeat;
 	height: 600px;
 	display: flex;
