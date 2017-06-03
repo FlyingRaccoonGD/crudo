@@ -131,7 +131,7 @@ footer {
 }
 
 .artc {
-	background-color: black;
+	background-color: white;
 	height: 227px;
 	width: 90%;
 	font-size: 17px;
@@ -148,6 +148,7 @@ footer {
 
 .artc article {
 	color: white;
+	background-color: black;
 	height: 180px;
 	width: 280px;
 	border: 2px solid white;
@@ -157,6 +158,7 @@ footer {
 	margin: 2px 10px;
 	padding: 20px;
 	position: absolute;
+	line-height: 17px;
 }
 
 .artc a {
@@ -177,81 +179,141 @@ footer {
 
 #ar1 {
 	margin-left: 0px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar2 {
 	margin-left: 400px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar3 {
 	margin-left: 800px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar4 {
 	margin-left: 1200px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar5 {
 	margin-left: 1600px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 
 
 #ar01 {
 	margin-left: 2000px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar02 {
 	margin-left:  2400px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar03 {
 	margin-left: 2800px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar04 {
 	margin-left: 3200px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar05 {
 	margin-left: 3600px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 
 #ar11 {
 	margin-left: 4000px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar12 {
 	margin-left:  4400px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar13 {
 	margin-left: 4800px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar14 {
 	margin-left: 5200px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 #ar15 {
 	margin-left: 5600px;
-	animation: desp 59s  linear infinite;
-	transform: translate(-4000px);
+	-webkit-animation: desp 59s  linear infinite;
+	-moz-animation: desp 59s  linear infinite;
+	-ms-animation: desp 59s  linear infinite;
+	-webkit-transform: translate(-4000px);
+	-moz-transform: translate(-4000px);
+	-ms-transform: translate(-4000px);
 }
 
 
@@ -301,6 +363,7 @@ footer {
 	margin-top: 100px;
 	position: relative;
 	justify-content: space-between;
+	flex-wrap: nowrap;
 }
 
 .posts{
@@ -369,8 +432,18 @@ header nav ul li:hover {
   }
 }
 
+@-webkit-keyframes desp {
+	100% {
+		-webkit-transform: initial;
+		-moz-transform: initial;
+		-ms-transform: initial;
+	}
+}
+
 @keyframes desp {
 	100% {
-		transform: initial;
+		-webkit-transform: initial;
+		-moz-transform: initial;
+		-ms-transform: initial;
 	}
 }
