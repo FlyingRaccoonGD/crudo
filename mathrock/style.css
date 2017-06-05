@@ -2,26 +2,53 @@
 color letras FF6052*/
 /*otro color letras 757575*/
 
-*{
-	margin: 0;
-}
+
 
 body {
 	margin: 0;
-	padding: 0;
+	font-family: 'Raleway';
 	color: #757575;
 }
 
 
-h1{
-	font-family: 'Fira Sans';
-	font-weight: 200;
-	font-size: 60px;
+header {
+	height: 80px;
+	color: black;
+	position: relative;
+}
+
+
+header nav {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+}
+
+header nav ul {
 	display: flex;
-	margin-top: 179px;
-	margin-left: 28px;
-	color: #FF6052;
-	text-align: center;
+	list-style-type: none;
+}
+
+header nav ul li {
+	font-size: 22px;
+	line-height: 50px;
+	padding-right: 15px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: black;
+	font-weight: 300;
+}
+
+
+h1{
+	font-family: 'Raleway';
+	font-weight: 200;
+	font-size: 80px;
+	display: flex;
+	color: white;
+	margin: 0;
 }
 
 picture {
@@ -29,16 +56,28 @@ picture {
 	justify-content: center;
 }
 
-.subt {
-	color: #FF6052;
-	font-family: 'Fira Sans';
-}
-.top {
-	background-image: url(img/cubes.png);
-	margin: 0;
-	height: 270px;
+
+
+.bgt{
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+	height: 500px;
 	display: flex;
-	overflow: hidden;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.logo {
+	margin-top: 12px;
+	margin-left: 10px;
+}
+
+
+
+.subt {
+	color: black;
+	font-family: 'Fira Sans';
 }
 
 
@@ -48,30 +87,10 @@ picture {
 	display: block;
 }
 
-.t1 {
-	font-weight: 100;
-
-}
-.t2 {
-	font-weight: 200;
-
-}
-.t3 {
-	font-weight: 300;
-}
-.t4 {
-	font-weight: 400;
-}
-.t5 {
-	font-weight: 500;
-}
-.t6{
-	font-weight: 600;	
-}
 
 
 .bot {
-	border-top: solid #FF6052 3px;
+	border-top: solid black 3px;
 	width: 100%;
 }
 
@@ -87,4 +106,62 @@ picture {
 
 .container {
 	overflow: hidden;
+}
+
+
+
+/*footer*/
+
+footer {
+	background-color: #757575;
+	color: white;
+	display: flex;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+	padding: 20px 5px;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+
+footer div {
+	margin: 0;
+	width: 250px;
+}
+
+/*footer social*/
+
+.social {
+	height: 120px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.social1 {
+	margin-top: 5px;
+	height: 100px;
+
+}
+.social2 {
+	height: 120px;
+}
+
+
+.equipo{
+	text-align: center;
+}
+
+.equipo img {
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+header nav ul li:hover {
+	text-decoration: underline;
 }
