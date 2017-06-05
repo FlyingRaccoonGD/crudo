@@ -39,6 +39,19 @@ footer {
 	color: white;
 	display: flex;
 	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+
+footer div {
+	margin: 0;
+	width: 600px;
 }
 
 .contenido a {
@@ -92,7 +105,6 @@ footer {
 }
 
 .contenido {
-	height: 1400px;
 	font-size: 40px;
 }
 
@@ -110,6 +122,9 @@ footer {
 
 
 /*footer social*/
+
+.social
+
 .social1 {
 	height: 100px;
 	margin-right: 50px;
@@ -129,6 +144,9 @@ footer {
 .social2:hover {
 	height: 92px;
 }
+
+
+
 
 .artc {
 	background-color: white;
@@ -152,7 +170,7 @@ footer {
 	height: 180px;
 	width: 280px;
 	border: 2px solid white;
-	border-radius: 5%;
+	border-radius: 10px;
 	text-align: center;
 	vertical-align: middle;
 	margin: 2px 10px;
@@ -171,7 +189,7 @@ footer {
 	display: inline-block;
 	font-weight: 300;
 	font-size: 40px;
-	margin: 80px 0 10px 10px;
+	margin: 10px 0 10px 10px;
 }
 
 
@@ -359,17 +377,62 @@ footer {
 
 .bot {
 	display: flex;
-	height: 600px;
-	margin-top: 100px;
-	position: relative;
+	margin-top: 60px;
+	margin-bottom: 100px;
 	justify-content: space-between;
 	flex-wrap: nowrap;
 }
 
 .posts{
-	width: 50vw;
 	margin-left: 20px;
+	padding: 20px;
+	background-color: white;
+	color: black;
+	border-radius: 20px;
 }
+.posts a{
+	color: black;
+}
+
+.posts  h2{
+	font-size: 26px;
+	font-weight: 300 ;
+	text-align: center;
+}
+
+.posts article {
+	margin: 20px 0 80px 30px;
+	display: flex;
+	padding: 5px;
+}
+
+.posts article img {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+
+}
+
+
+
+.posts article p{
+	width: 400px;
+	font-size: 20px;
+	margin-left: 20px ;
+}
+
+
+
+
+.leer {
+	font-size: 20px;
+	font-weight: 600;
+	display: block
+}
+
+
+
+
 
 
 .pla {
@@ -377,13 +440,14 @@ footer {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	align-items: center;
 	justify-content: center;
+	margin-top: 0px;
 }
 
 
 .pl {
 	margin: auto;
+	margin-top: 0;
 }
 
 .pl h3{
@@ -392,7 +456,17 @@ footer {
 }
 
 
+.equipo{
+	text-align: center;
+}
 
+.equipo img {
+	border-radius: 50%;
+}
+
+.contacto a {
+	font-size: 21px;
+}
 
 
 
