@@ -462,6 +462,8 @@ footer div {
 
 .equipo img {
 	border-radius: 50%;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .contacto a {
