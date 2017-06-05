@@ -122,6 +122,9 @@ footer div {
 
 
 /*footer social*/
+
+.social
+
 .social1 {
 	height: 100px;
 	margin-right: 50px;
@@ -141,6 +144,9 @@ footer div {
 .social2:hover {
 	height: 92px;
 }
+
+
+
 
 .artc {
 	background-color: white;
@@ -450,7 +456,17 @@ footer div {
 }
 
 
+.equipo{
+	text-align: center;
+}
 
+.equipo img {
+	border-radius: 50%;
+}
+
+.contacto a {
+	font-size: 21px;
+}
 
 
 
