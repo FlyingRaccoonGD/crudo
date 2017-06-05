@@ -34,13 +34,13 @@ header nav a {
 }
 
 footer {
-	height: 200px;
 	background-color: black;
 	color: white;
 	display: flex;
 	align-items: center;
 	display: flex;
 	justify-content: space-around;
+	padding: 20px 5px;
 }
 
 footer a {
@@ -51,7 +51,7 @@ footer a {
 
 footer div {
 	margin: 0;
-	width: 600px;
+	width: 250px;
 }
 
 .contenido a {
@@ -123,32 +123,22 @@ footer div {
 
 /*footer social*/
 
-.social div {
+.social {
 	height: 120px;
+	display: flex;
+	justify-content: space-between;
+
 }
 
 .social1 {
+	margin-top: 5px;
 	height: 100px;
-	margin-top: 10px;
-	margin-bottom: 10px ;
-	margin-right: 50px;
-	margin-left: 50px; 
-	transition: .6s;
+
 }
 .social2 {
 	height: 120px;
-	transition: .6s;
 }
 
-.social1:hover {
-	height: 72px;
-	margin-right: 64px;
-	margin-left: 64px;
-}
-.social2:hover {
-	height: 92px;
-
-}
 
 
 
@@ -385,7 +375,7 @@ footer div {
 	margin-top: 60px;
 	margin-bottom: 100px;
 	justify-content: space-between;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 }
 
 .posts{
@@ -470,6 +460,8 @@ footer div {
 	margin-left: 10px;
 	margin-right: 10px;
 }
+
+
 
 .contacto a {
 	font-size: 21px;
