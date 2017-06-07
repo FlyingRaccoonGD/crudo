@@ -162,6 +162,11 @@ footer div {
 	margin-right: 10px;
 }
 
+.contacto a {
+	font-size: 21px;
+}
+
+
 header nav ul li:hover {
 	text-decoration: underline;
 }
