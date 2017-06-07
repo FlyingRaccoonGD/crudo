@@ -155,16 +155,81 @@ footer {
   height: 72px;
   margin-right: 64px;
   margin-left: 64px;
+
 }
 .social2:hover {
   height: 92px;
 }
+
 
 .hdr nav ul li:hover {
   text-decoration: underline;
 }
 
 
+
+
+.versiones {
+  width: 65%;
+  margin: 100px auto;
+
+}
+
+.au{
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+.guillermo {
+  background-image: url(img/guillermo.jpg);
+  margin-right: 26px;
+  transition: 0.8s ease;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+
+
+}
+
+.roberto {
+  background-image: url(img/roberto.jpeg);
+  margin-left: 26px;
+  transition: 0.8s ease;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.guillermo:hover {
+  clip-path: polygon(50% 0, 50% 0, 100% 100%, 0% 100%);
+
+}
+.roberto:hover {
+  clip-path: polygon(50% 0, 50% 0, 100% 100%, 0% 100%);
+}
+
+
+
+
+
+
+.esconder {
+  display: none;
+}
+.espaciador {
+  height: 400px;
+}
+
+
+button:hover {
+  
+}
+
+
+button:focus {
+  outline: 0;
+}
 
 @keyframes appear {
   0% {
