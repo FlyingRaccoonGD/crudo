@@ -393,6 +393,7 @@ footer div {
 	font-size: 26px;
 	font-weight: 300 ;
 	text-align: center;
+	margin-top: 5px;
 }
 
 .posts article {
@@ -469,6 +470,21 @@ footer div {
 
 
 
+.maspost {
+	border-radius: 10px;
+	width: 300px;
+	background-color: black;
+	color: white;
+	transform: translate(-60px , -60px);
+	text-align: end;
+	padding: 5px;
+	transition: 0.4s ease;
+}
+
+.maspost:hover {
+
+	transform: translate(-44px , -60px);
+}
 
 
 
