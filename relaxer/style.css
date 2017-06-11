@@ -239,7 +239,9 @@ footer div {
   color: black;
 }
 
-
+.G1 div, .R1 div{
+  height: 20px;
+}
 
 
 
