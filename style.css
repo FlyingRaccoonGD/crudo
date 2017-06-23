@@ -106,6 +106,8 @@ footer div {
 
 .contenido {
 	font-size: 40px;
+	margin-bottom: 40px;
+	border-bottom: solid black;
 }
 
 
@@ -373,7 +375,6 @@ footer div {
 .bot {
 	display: flex;
 	margin-top: 60px;
-	margin-bottom: 100px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
@@ -384,9 +385,15 @@ footer div {
 	background-color: white;
 	color: black;
 	border-radius: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
+
+
 .posts a{
 	color: black;
+
 }
 
 .posts  h2{
@@ -397,16 +404,25 @@ footer div {
 }
 
 .posts article {
-	margin: 20px 0 80px 30px;
+/*	margin: 20px 0 80px 30px;*/
 	display: flex;
-	padding: 5px;
+	flex-direction: column;
+/*	padding: 5px;*/
+	text-align: center;
 }
 
 .posts article img {
 	width: 200px;
 	height: 200px;
-	border: 2px solid black;
+	border: 1px solid white;
+	padding: 6px;
+	transition: 0.3s;
 
+}
+
+.ipo:hover {
+	border: 1px solid black;
+	padding: 6px;
 }
 
 
@@ -420,6 +436,7 @@ footer div {
 
 
 
+
 .leer {
 	font-size: 20px;
 	font-weight: 600;
@@ -427,12 +444,14 @@ footer div {
 }
 
 
-
+.bot2 {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
 
 
 
 .pla {
-	width: 50vw;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -470,20 +489,29 @@ footer div {
 
 
 
+
+
+
 .maspost {
-	border-radius: 10px;
-	width: 500px;
+	width: 200px;
+	height: 60px;
 	background-color: black;
 	color: white;
-	transform: translate(-260px , -40px);
-	text-align: end;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 	padding: 5px;
 	transition: 0.3s;
+	font-size: 20px;
+	margin: auto;
+	border: solid black 1px 1px 0 1px;
 }
 
 .maspost:hover {
 
-	transform: translate(-180px , -40px);
+	background-color: white;
+	color: black;
 }
 
 
