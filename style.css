@@ -41,6 +41,7 @@ footer {
 	display: flex;
 	justify-content: space-around;
 	padding: 20px 5px;
+	flex-wrap: wrap;
 }
 
 footer a {
@@ -115,7 +116,7 @@ footer div {
 	width: 60%;
 	margin: auto;
 	text-align: center;
-	border-top: 2px solid grey;
+	border-top: 2px solid black;
 }
 
 
@@ -374,13 +375,13 @@ footer div {
 
 .bot {
 	display: flex;
-	margin-top: 60px;
-	justify-content: space-between;
+	margin-top: 90px;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
 .posts{
-	margin-left: 20px;
+/*	margin-left: 20px;*/
 	padding: 20px;
 	background-color: white;
 	color: black;
@@ -415,14 +416,14 @@ footer div {
 	width: 200px;
 	height: 200px;
 	border: 1px solid white;
-	padding: 6px;
+	padding: 8px;
 	transition: 0.3s;
 
 }
 
 .ipo:hover {
 	border: 1px solid black;
-	padding: 6px;
+	padding: 8px;
 }
 
 
@@ -473,6 +474,8 @@ footer div {
 
 .equipo{
 	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
 }
 
 .equipo img {
@@ -481,6 +484,10 @@ footer div {
 	margin-right: 10px;
 }
 
+.contacto {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 
 .contacto a {
@@ -505,7 +512,6 @@ footer div {
 	transition: 0.3s;
 	font-size: 20px;
 	margin: auto;
-	border: solid black 1px 1px 0 1px;
 }
 
 .maspost:hover {
