@@ -375,12 +375,12 @@ footer div {
 .bot {
 	display: flex;
 	margin-top: 60px;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: wrap;
 }
 
 .posts{
-	margin-left: 20px;
+/*	margin-left: 20px;*/
 	padding: 20px;
 	background-color: white;
 	color: black;
@@ -415,14 +415,14 @@ footer div {
 	width: 200px;
 	height: 200px;
 	border: 1px solid white;
-	padding: 6px;
+	padding: 8px;
 	transition: 0.3s;
 
 }
 
 .ipo:hover {
 	border: 1px solid black;
-	padding: 6px;
+	padding: 8px;
 }
 
 
